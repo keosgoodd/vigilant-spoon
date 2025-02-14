@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1739565172475
+  lastteleport: 1739565934218
   lastheal: 0
   mute: 0
   jail: 0
@@ -20,16 +20,16 @@ timestamps:
   login: 1739563012593
   kits:
     inicial: 1739480972632
-money: '12514.5315000000015631'
+money: '13687.0065000000003431'
 last-account-name: ElKeitoGG
 lastlocation:
   world: ba906bec-d767-4b59-b9b1-3248d798c7dc
   world-name: world
-  x: -2871.893872366161
-  y: -22.0
-  z: -1455.8938723661608
-  yaw: 154.5754852294922
-  pitch: 0.8034560680389404
+  x: -3021.0332460108175
+  y: 68.87621569273747
+  z: -1483.3455031640653
+  yaw: 150.26504516601562
+  pitch: 27.213665008544922
 logoutlocation:
   world: ba906bec-d767-4b59-b9b1-3248d798c7dc
   world-name: world

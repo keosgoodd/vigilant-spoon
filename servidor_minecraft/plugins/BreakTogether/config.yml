@@ -5,7 +5,7 @@
 
 # DISABLE OR ENABLE THE ORE/TREES BREAKING [true/false]
 # this enables or disables the plugin for everyone, this could be done also using /bt <enable/disable> <ores/trees>
-breakOreActive: true
+breakOreActive: false
 breakTreeActive: true
 
 # MESSAGES #
