@@ -1,0 +1,45 @@
+# ## Breaktogether 1.6 ###
+# @Byawa54, @aletao
+
+# After any update you can reload the config using /bt reload
+
+# DISABLE OR ENABLE THE ORE/TREES BREAKING [true/false]
+# this enables or disables the plugin for everyone, this could be done also using /bt <enable/disable> <ores/trees>
+breakOreActive: true
+breakTreeActive: true
+
+# MESSAGES #
+# LOGS
+# use %number% to get the number of broken blocks
+brokenLogs: §7§oYou broke §4%number% §7logs!
+brokenPartialLogs: §c§oNot enough durability to break the whole tree! I could only
+  break %number% logs!
+# ORES
+# use %ore% to get the block type (diamond for example)
+# use %number% to get the number of broken blocks
+# use %fortuneOres% to get the NUMBER of ores dropped with fortune.
+brokenOres: §7§oYou broke %number% of §4§l§o%ore%!
+brokenOresWithFortune: §7§oYou broke %number% of §4§l§o%ore%, dropping %fortuneOres%
+  more due to fortune!
+brokePartialOres: §7I could only break %number% of %ore% due to durability!
+# GENERAL
+notEnoughDurability: §c§oNot enough durability!
+noPermission: §c§oYou dont have the permission to do that!
+
+# Permissions
+# if you're not handling the permissions in your server, the OP players will get every feature
+
+# breaktogether.breakores.use - to break the ores together
+# breaktogether.breaktrees.use - to break the trees together
+
+# breaktogether.reload - to use /bt reload (reloads the plugin)
+# breaktogether.disable - to use -/bt disable (to disable the plugin for everyone)
+# breaktogether.enable - to use /bt enable (to enable the plugin for everyone)
+# breaktogether.breakores.toggle - to use /bt ores <on/off> (disables the feature only for you)
+# breaktogether.breaktrees.toggle - to use /bt trees <on/off> (disables the feature only for you)
+
+# WorldGuard integration
+# In oder to prevent the usage of this plugin in certain areas 
+# we've implemented the worldguard API
+# you need to create a region in the intended area with the flag "BLOCK-BREAK"
+# example: /rg flag  <region> block-break deny
