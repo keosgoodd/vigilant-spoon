@@ -18,6 +18,7 @@
       "minecraft:sparse_jungle": "2025-02-13 20:43:56 +0000",
       "minecraft:river": "2025-02-13 21:35:46 +0000",
       "minecraft:snowy_taiga": "2025-02-14 00:21:07 +0000",
+      "minecraft:dripstone_caves": "2025-02-14 20:25:51 +0000",
       "minecraft:old_growth_birch_forest": "2025-02-13 20:48:06 +0000",
       "minecraft:desert": "2025-02-13 23:27:45 +0000",
       "minecraft:ocean": "2025-02-14 00:17:50 +0000",
@@ -2082,6 +2083,12 @@
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2025-02-14 00:47:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-02-14 20:20:34 +0000"
     },
     "done": true
   },

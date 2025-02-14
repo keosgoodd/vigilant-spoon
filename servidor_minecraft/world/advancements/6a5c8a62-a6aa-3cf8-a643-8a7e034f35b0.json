@@ -28,10 +28,13 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-02-14 20:11:21 +0000",
       "minecraft:skeleton": "2025-02-13 06:45:24 +0000",
+      "minecraft:vindicator": "2025-02-14 20:17:17 +0000",
       "minecraft:silverfish": "2025-02-13 21:31:37 +0000",
       "minecraft:spider": "2025-02-13 20:11:25 +0000",
       "minecraft:zombie": "2025-02-13 20:27:17 +0000",
+      "minecraft:creeper": "2025-02-14 20:18:24 +0000",
       "minecraft:drowned": "2025-02-14 03:49:03 +0000",
       "minecraft:zombie_villager": "2025-02-14 04:45:21 +0000"
     },
@@ -1294,6 +1297,18 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2025-02-14 19:53:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-02-14 20:11:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-02-14 20:13:56 +0000"
     },
     "done": true
   },
